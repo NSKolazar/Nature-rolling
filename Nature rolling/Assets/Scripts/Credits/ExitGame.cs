@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ExitGame : MonoBehaviour
 {
-    public AudioSource effect;
+    [SerializeField] AudioSource effect;
     public void Quit()
     {
         effect.Play();
