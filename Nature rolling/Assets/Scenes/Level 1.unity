@@ -1159,8 +1159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 383083242}
-  gateCollider: {fileID: 1318703290}
-  gateRender: {fileID: 1318703288}
+  gate: {fileID: 1318703286}
   point: {fileID: 355379731}
   complete: {fileID: 573901780}
 --- !u!82 &126117482
@@ -8959,12 +8958,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2055780922}
   m_PrefabAsset: {fileID: 0}
---- !u!23 &1318703288 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 2300000, guid: 2927ffef0e4909c4888a47862667dc0f,
-    type: 3}
-  m_PrefabInstance: {fileID: 2055780922}
-  m_PrefabAsset: {fileID: 0}
 --- !u!64 &1318703290
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14365,6 +14358,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 2927ffef0e4909c4888a47862667dc0f, type: 3}
       propertyPath: m_TagString
       value: Gate
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2927ffef0e4909c4888a47862667dc0f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2927ffef0e4909c4888a47862667dc0f, type: 3}
       propertyPath: m_LocalPosition.x
