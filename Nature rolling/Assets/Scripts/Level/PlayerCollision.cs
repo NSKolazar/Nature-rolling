@@ -4,8 +4,13 @@ using UnityEngine.SceneManagement;
 
 public class PlayerCollision : MonoBehaviour
 {
+    
     public TextMeshProUGUI text;
     public GameObject gate;
+
+    [Space]
+
+    [Header("Audio")]
     public AudioSource point;
     public AudioSource complete;
     void OnCollisionEnter(Collision collisionInfo)
