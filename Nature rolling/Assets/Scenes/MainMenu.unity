@@ -179,8 +179,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 79d8020475ef5a04197b0707bfd7c7eb, type: 2}
-  m_sharedMaterial: {fileID: 4479208042795283340, guid: 79d8020475ef5a04197b0707bfd7c7eb,
+  m_fontAsset: {fileID: 11400000, guid: 4ce6c0c2350e14c47bdd1deec78cde75, type: 2}
+  m_sharedMaterial: {fileID: 3770929903828093737, guid: 4ce6c0c2350e14c47bdd1deec78cde75,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -206,8 +206,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 80
-  m_fontSizeBase: 80
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -102.68223, y: 0, z: -88.759315, w: 0}
   m_textInfo:
     textComponent: {fileID: 274704716}
     characterCount: 15
